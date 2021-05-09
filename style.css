@@ -32,7 +32,7 @@ h1 {
 	max-width: 1200px;
 }
 
-.pokemon-card {
+.pokemon {
 	background-color: #eee;
 	margin: 0.5rem;
 	padding: 1.5rem;
@@ -42,7 +42,7 @@ h1 {
 	text-align: center;
 }
 
-.pokemon-card .img-container {
+.pokemon .img-container {
 	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 50%;
 	width: 120px;
@@ -50,22 +50,22 @@ h1 {
 	text-align: center;
 }
 
-.pokemon-card .img-container img {
+.pokemon .img-container img {
 	max-width: 90%;
 	margin-top: 20px;
 }
 
-.pokemon-card .poke-info {
+.pokemon .poke-info {
 	margin-top: 20px;
 }
 
-.pokemon-card .poke-info .poke-num {
+.pokemon .poke-info .poke-num {
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 0.25rem 0.5rem;
 	font-size: 0.8rem;
 	border-radius: 4px;
 }
 
-.pokemon-card .poke-info .poke-name {
+.pokemon .poke-info .poke-name {
 	letter-spacing: 1px;
 }
