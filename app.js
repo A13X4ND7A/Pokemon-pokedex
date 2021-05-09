@@ -5,24 +5,24 @@ const POKE_URL = 'pokemon/';
 const numberOfPokemon = 150;
 
 const colours = {
-	normal: '#A8A878',
-	fire: '#F08030',
-	water: '#6890F0',
-	grass: '#78C850',
-	electric: '#F8D030',
-	ice: '#98D8D8',
-	fighting: '#C03028',
-	poison: '#A040A0',
+	normal: '#a4acaf',
+	fire: '#fd7d24',
+	water: '#4592c4',
+	grass: '#9bcc50',
+	electric: '#eed535',
+	ice: '#51c4e7',
+	fighting: '#d56723',
+	poison: '#b97fc9',
 	ground: '#E0C068',
-	flying: '#A890F0',
-	psychic: '#F85888',
-	bug: '#A8B820',
-	rock: '#B8A038',
-	ghost: '#705898',
-	dark: '#705848',
-	dragon: '#7038F8',
-	steel: '#B8B8D0',
-	fairy: '#F0B6BC',
+	flying: '#3dc7ef',
+	psychic: '#f366b9',
+	bug: '#729f3f',
+	rock: '#a38c21',
+	ghost: '#7b62a3',
+	dark: '#707070',
+	dragon: '#53a4cf',
+	steel: '#9eb7b8',
+	fairy: '#fdb9e9',
 };
 
 const main_types = Object.keys(colours);
@@ -69,7 +69,7 @@ const createPokemonCard = (pokemon) => {
 				<div class="poke-info">
 					<span class="poke-num">#${id}</span>
 					<h3 class="poke-name">${name}</h3>
-					<small class="poke-type">Type: <span>${type}</span></small>
+					<small class="poke-type"><span>${type}</span></small>
 				</div>`;
 
 	pokemonEl.innerHTML = pokemoncardInnerHTML;
